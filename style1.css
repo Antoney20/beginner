@@ -1,0 +1,124 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     padding: 0;
+     margin: 0;
+     background-color: #f4f4f4;
+ }
+ .container{
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+ }
+ .highlight{
+     text-decoration: underline wavy;
+ }
+ .dark{
+    padding: 30px;
+    background: green;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ header ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+ header{
+     background: #35424a;
+     color: #ffffff;
+     padding-top: 20px;
+     min-height: 100px;
+     border-bottom: #e8491d 3px solid;
+ }
+ header a{
+     color: #ffffff;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 16px;
+    }
+ header a{
+        color:red;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-size: 11px;
+        display: inline;
+        float:left;
+        padding: 0px 8px 0px 8px;
+        
+       }
+    header ul{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px;
+    }
+    header #branding{
+        float:left;
+    }
+    header #branding h1{
+
+        margin: 0px;
+    }
+    header nav{
+        float: right;
+        margin-top: 10px;
+    }
+    header .highlight, header .current a{
+        color:red ;
+        font-weight: bold;
+    }
+    header :hover{
+        color: #cccccc;
+        font-weight: bold;
+    }
+    /*showcase*/
+   #showcase{
+     font-style: italic;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color:white;
+     min-height: 400px;
+     background:url('images/car.png') repeat;
+     text-align: center;
+}
+/*newsletter*/
+#newsletter {
+color: #35424a;
+background: url('images/IMG_20200216_182400_7.jpg');
+font-style: italic;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+min-height: 100px;
+text-align: center;
+}
+/*boxes*/
+#boxes {
+    margin-top:2px;
+    background:pink;
+    color: #ffffff;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+}
+#boxes .box img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*footer*/
+footer{
+    padding: 20px;
+    margin-top: 1px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
